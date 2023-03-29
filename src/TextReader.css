@@ -1,0 +1,41 @@
+.text-reader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-bottom: 20px;
+  }
+  
+  .read-btn, .stop-btn {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .read-btn:hover, .stop-btn:hover {
+    background-color: #005ba1;
+  }
+  
+  .read-btn:disabled, .stop-btn:disabled {
+    background-color: #ccc;
+    cursor: default;
+  }
+  
+  .stop-btn {
+    margin-left: 10px;
+  }
+  
+  
